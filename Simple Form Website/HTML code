@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Your Details</title>
+</head>
+<body background="https://slidechef.net/wp-content/uploads/2021/07/educational-background-google-slide.jpg">
+    <h1>Fill Your Details</h1>
+    <form action="ac.php">
+        <div>
+            Name : <input name="name" type="text">
+        </div>
+        <br>
+        <div>
+            Age : <input name="age" type="number" max="99" min="18">
+        </div>
+        <br>
+        <div>
+            Email : <input name="email" type="email">
+        </div>
+        <br>
+        <div>
+            Gender : <select name="gender"> <option value="male">Male</option> 
+                <option value="female">Female</option> <option value="Gay">Gay</option>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="yes">Indian 
+        </div>
+        <br>
+        <div>
+            Which course do you want ? : Java <input type="radio" name="Mobile"> Web Development <input type="radio" name="Mobile">
+        </div>
+        <br>
+        <div>
+            Date :<input type="date" name="date">
+        </div>
+        <br>
+        <div>
+            Submit Now :<input type="submit" name="submit">
+            Reset Now :<input type="reset" name="reset">
+        </div>
+        <br>
+        <div>
+            Write About YourSelf : <br>
+            <textarea name="text" cols="30" rows="10"></textarea>
+        </div>
+        
+    </form>
+    
+</body>
+</html>
