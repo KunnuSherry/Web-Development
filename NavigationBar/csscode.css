@@ -1,0 +1,39 @@
+:root {
+    --navcolor: #13161F ;
+    --bodycolor:#070e18;
+    --textcolor: #CB3840 ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bodycolor);
+}
+
+ul {
+    display: flex;
+    margin-left:  975px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    margin: 12px;
+    padding: 12px;
+    color: var(--textcolor);
+
+}
+
+.nav {
+    display: flex;
+    background-color: var(--navcolor);
+    height: 100px;
+    text-align: center;
+}
