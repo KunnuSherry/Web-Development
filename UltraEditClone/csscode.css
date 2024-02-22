@@ -1,0 +1,117 @@
+:root {
+    --color1: white;
+    --color2: #00B6D1;
+    --color3: #5CB85C;
+    --color4: #f9f9f9;
+    /* --color1 : white ;
+    --color1 : white ;
+    --color1 : white ; */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-left: 470px;
+    margin-top: 100px;
+}
+
+.textmain {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 12px;
+}
+
+.textsec {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 9px;
+}
+
+.boxes {
+    display: grid;
+    width: 957px;
+    /* border: 2px solid black; */
+    height: 700px;
+    margin: auto;
+    margin-top: 66px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 34px;
+}
+
+.box {
+
+    /* border: 2px solid black; */
+    width: 297px;
+    height: 154px;
+    background-color: var(--color4);
+}
+
+.box1 {
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+
+    margin-top: 25px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.text2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+}
+
+.buttona {
+    display: inline;
+    position: relative;
+    top: 48px;
+    left: 20px;
+    /* border: 2px solid black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 6px;
+    color: var(--color1);
+    background-color: var(--color2);
+}
+
+.buttonb {
+    display: inline;
+    position: relative;
+    left: 50px;
+    top: 48px;
+    /* border: 2px solid black; */
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-color: var(--color3);
+    color: white;
+}
+.last{
+    height: 200px;
+}
