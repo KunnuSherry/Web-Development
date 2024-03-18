@@ -1,0 +1,1 @@
+This project aims to provide any random set of colors to 5 different boxes. I have used the concept of DOM here. and used "Math.random" to generate random numbers.
